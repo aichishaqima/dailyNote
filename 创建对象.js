@@ -14,3 +14,15 @@ function createPerson(name,age,job){
 
 var person1 = createPerson("Nicholas",29,"Software Engineer");
 var person2 = createPerson("Greg",27,"Doctor");
+
+//构造函数模式
+function Person(name,age,job){
+    this.name = name;
+    this.age = age;
+    this.sayName = function(){
+        alert(this.name);
+    };
+}
+
+var person1 = new Person("Nicholas",29,"Software Engineer");
+var person2 = new Person("Greg",27,"Doctor");
