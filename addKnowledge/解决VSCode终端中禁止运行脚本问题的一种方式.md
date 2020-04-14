@@ -2,7 +2,7 @@
 
  
 
-解决：
+<font color="blue">解决：</font>
 
 1. 右击VSCode图标，选择以管理员身份运行；
 2. 在终端中执行get-ExecutionPolicy，显示Restricted，表示状态是禁止的；
