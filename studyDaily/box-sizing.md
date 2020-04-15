@@ -23,4 +23,3 @@ box-sizing属性可以被用来调整这些表现
 
 高版本的chrome浏览器默认的box-sizing模式就是content-box，可以通过设置，改为border-box。
 
-
