@@ -8,3 +8,4 @@
 # 20200415
 ### font属性(简写)
 <font color='red'><strong>font:</strong></font>font-style font-variant font-weight font-size/line-height font-family
+### padding不能为负，margin可以为负
