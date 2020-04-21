@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery对象转化为DOM对象</title>
+    <script type="text/javascript" src="../../css/jquery1.9.1.css"></script>
+</head>
+<body>
+    <div id="imooc">元素1</div>
+    <div>元素2</div>
+    <div>元素3</div>
+
+    <script>
+        var $div=$('div');
+        var div=$div.get(0);
+        div.style.color="red";
+    </script>
+</body>
+</html>

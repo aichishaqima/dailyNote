@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery对象与DOM对象</title>
+    <script type="text/javascript" src="../../css/jquery1.9.1.css"></script>
+    <script>
+        window.onload=function(){
+            var p=document.getElementById("imooc1");
+            p.innerHTML="第一段文字";
+            p.style.cssText="color:red;";
+            p.style.backgroundColor="green";
+        }
+    </script>
+    <script>
+        $(document).ready(function(){
+            var $p=$("#imooc2");
+            $p.html("第二段文字").css({"color":"red","background-color":"blue"});
+        })
+    </script>
+</head>
+<body>
+    <p id="imooc1"></p>
+    <p id="imooc2"></p>
+</body>
+</html>
